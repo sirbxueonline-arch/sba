@@ -1,0 +1,196 @@
+{
+  "HomePage": {
+    "title": "Birlikdə Daha Güclü: Sərhədsiz Gələcək",
+    "badge": "Proqress naminə",
+    "subtitle": "Azərbaycan Spina Bifida Dəstək Assosiasiyası",
+    "getSupport": "Dəstək Alın",
+    "learnMore": "Spina Bifida Haqqında",
+    "mission": "Biz maarifləndirmə, tibbi əlçatanlıq və sosial inklüziya üçün milli səsimiz.",
+    "focus": {
+        "title": "Fəaliyyət İstiqamətlərimiz",
+        "support": { "title": "Dəstək", "desc": "Diaqnoz və gündəlik həyatda ailələrə birbaşa yardım." },
+        "education": { "title": "Təhsil", "desc": "Xəstələr və peşəkarlar üçün tibbi cəhətdən dəqiq resurslar." },
+        "advocacy": { "title": "Müdafiə", "desc": "Bərabər hüquqlar, əlçatanlıq və səhiyyə siyasətləri üçün mübarizə." }
+    },
+    "impact": {
+        "title": "Real Dəyişiklik",
+        "stat1": { "val": "500+", "label": "Ailəyə Dəstək" },
+        "stat2": { "val": "50", "label": "Həkim Təlimi" },
+        "stat3": { "val": "100%", "label": "Sizə Sadiq" }
+    },
+    "cta": {
+        "title": "Hərəkata Qoşulun",
+        "desc": "Valideyn, həkim və ya dost olmağınızdan asılı olmayaraq - burada sizin üçün bir yer var.",
+        "btn": "Bizə Qoşulun"
+    }
+  },
+  "Navigation": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "whatIsSB": "Spina Bifida Nədir?",
+    "livingWith": "SB ilə Həyat",
+    "support": "Dəstək",
+    "programs": "Proqramlar",
+    "news": "Xəbərlər",
+    "contact": "Əlaqə",
+    "support_res": "Resurslar",
+    "support_map": "Tibbi Xəritə",
+    "support_help": "Qaynar Xətt"
+  },
+  "Common": {
+    "readMore": "Ətraflı",
+    "donate": "İanə Edin"
+  },
+  "AboutPage": {
+    "title": "Haqqımızda",
+    "mission": {
+        "title": "Missiyamız",
+        "text": "Ailələr və həkimlər tərəfindən təsis edilmiş, Azərbaycanda yalnız Spina Bifida üçün fəaliyyət göstərən ilk milli təşkilatıq. İnanırıq ki, diaqnoz fərqli və gözəl bir səyahətin sadəcə başlanğıcıdır. Biz stiqmanı silmək, tibbi resurslar təmin etmək və heç kimin tək hiss etmədiyi bir cəmiyyət qurmaq üçün yorulmadan çalışırıq."
+    },
+    "leadership": {
+        "title": "Rəhbərlik",
+        "doc": { "name": "Dr. İlham Əliyev", "title": "Baş Tibbi Məsləhətçi", "desc": "Pediatrik onurğa baxımı üzrə 20 illik təcrübəyə malik neyrocərrah." },
+        "director": { "name": "Leyla Məmmədova", "title": "İcraçı Direktor", "desc": "Valideyn müdafiəçisi və 'Birlikdə Daha Güclü' təşəbbüsünün təsisçisi." },
+        "counsel": { "name": "Rəşad Hüseynov", "title": "Hüquq Məsləhətçisi", "desc": "Azərbaycanda əlillik hüquqları və səhiyyə siyasəti üzrə mütəxəssis." }
+    },
+    "values": {
+        "title": "Dəyərlərimiz",
+        "dignity": { "title": "Ləyaqət", "desc": "Hər bir kəs hörmət və imkanlara layiqdir." },
+        "community": { "title": "İcma", "desc": "Heç bir ailə bu çətinliklə təkbaşına üzləşməməlidir." },
+        "accuracy": { "title": "Dəqiqlik", "desc": "Biz qorxu deyil, faktlar təqdim edirik." }
+    }
+  },
+  "WhatIsSBPage": {
+      "title": "Spina Bifida Nədir?",
+      "intro": "Spina Bifida hamiləliyin ilk ayında baş verən sinir borusu qüsurudur. Bu, onurğa və onurğa beyninə təsir edən ən çox yayılmış anadangəlmə qüsurlardan biridir.",
+      "prevention": {
+          "title": "Profilaktika və Fol Turşusu",
+          "text": "Elmi araşdırmalar göstərir ki, hamiləlikdən ən azı bir ay əvvəl və ilk üç ay ərzində hər gün 400 mkq Fol Turşusu qəbul edilərsə, Spina Bifida hallarının 70%-ə qədəri qarşısı alına bilər."
+      },
+      "types": {
+          "title": "Klinik Növlər",
+          "occulta": { "term": "Spina Bifida Okkulta", "desc": "Gizli forma. Adətən onurğada kiçik bir boşluq olur, lakin beldə açıqlıq və ya kisə yoxdur. Bir çox insan bunun fərqinə varmadan yaşayır." },
+          "meningocele": { "term": "Meninqosele", "desc": "Uşağın belindəki açıqlıqdan maye dolu bir kisə çıxır, lakin onurğa beyni bu kisənin içində deyil. Sinir zədələnməsi minimal olur." },
+          "myelomeningocele": { "term": "Mielomeninqosele (Açıq Spina Bifida)", "desc": "Ən mürəkkəb forma. Onurğa beyninin hissələri və sinirlər açıqlıqdan çıxan kisənin içində olur. Bu, ciddi əlilliyə səbəb ola bilər." },
+          "lipomyelomeningocele": { "term": "Lipomielomeninqosele", "desc": "Spina Bifida-nın bir formasıdır ki, burada onurğa beyninə piy kütləsi birləşir. İdarə olunmazsa, mütərəqqi sinir zədələnməsinə səbəb ola bilər." }
+      },
+      "myths": {
+          "title": "Miflərin Doğrusu",
+          "item": "Mif: Bu irsidir və ya bir qarğışdır. Fakt: Bu genetik və ekoloji amillərin birləşməsidir. Bu heç kimin 'günahı' deyil."
+      },
+        "diagnosis": {
+            "title": "Necə Diaqnoz Qoyulur?",
+            "prenatalLabel": "Prenatal (Bətndaxili)",
+            "prenatal": "Əksər hallar hamiləlik zamanı qan testləri (AFP) və ətraflı USM vasitəsilə aşkar edilir. Bəzi hallarda nəticələri yaxşılaşdırmaq üçün bətndaxili əməliyyat edilə bilər.",
+            "postnatalLabel": "Postnatal (Doğuşdan Sonra)",
+            "postnatal": "Doğuşdan sonra onurğa və beyin strukturunun dəqiq görüntüsünü almaq üçün MRT və ya KT skanlarından istifadə olunur."
+        },
+      "treatment": {
+          "title": "Müalicə və İdarəetmə",
+          "surgery": "Onurğanın bağlanması üçün əməliyyat adətən doğuşdan sonra 48 saat ərzində həyata keçirilir. Bəzi körpələrə beyində maye toplanmasını idarə etmək üçün 'şunt' tələb oluna bilər.",
+          "multidisciplinary": "Qulluq komanda işidir: neyrocərrahlar, uroloqlar, ortopedlər və fizioterapevtlər bu prosesdə iştirak edirlər."
+      },
+      "management": {
+          "title": "Əsas Diqqət Olunmalı Məqamlar",
+          "intro": "Spina Bifida ilə yaşamaq, ən yaxşı həyat keyfiyyətini təmin etmək üçün bir neçə əsas sahədə ömürlük diqqət tələb edir.",
+          "kidneyInfection": { "title": "Böyrəyi infeksiyadan qorumaq", "text": "Böyrək funksiyasını qorumaq və infeksiyalara, xüsusən də sidik yolu infeksiyalarına qarşı diqqətli olmaq ən yüksək prioritetdir." },
+          "orthopedic": { "title": "Ortopedik müayinələr", "text": "Hərəkətliliyin təmin edilməsi və onurğa problemlərinin idarə olunması üçün mütəmadi ortopedik nəzarət vacibdir." },
+          "rehab": { "title": "Daimi reabilitasiya", "text": "Fizioterapiya və reabilitasiya qulluq rutininin daimi və ömürlük bir hissəsi olmalıdır." },
+          "psychology": { "title": "Psixoloji dəstək", "text": "Həm fərd, həm də ailəsi üçün emosional rifah və adaptasiya məqsədilə psixoloji yardımdan istifadə edilməlidir." }
+      }
+  },
+  "SupportPage": {
+      "title": "Dəstək və Resurslar",
+      "p100": { "title": "İlk 100 Gün Bələdçisi", "desc": "Diaqnozla yeni qarşılaşan valideynlər üçün vacib bələdçi. Tibbi terminlərin izahı və ilk addımlar." },
+      "map": { "title": "Tibbi Xəritə", "desc": "Bakıda və bölgələrdə ixtisaslaşmış nevroloji və uroloji qayğı mərkəzlərini tapın." },
+      "mentor": { "title": "Valideyn Mentorluğu", "desc": "Bu yolu əvvəllər keçmiş təcrübəli ailələrlə əlaqə qurun. WhatsApp qrupumuza qoşulun." },
+      "btn": { "download": "PDF Yüklə", "view": "Xəritəyə Bax", "join": "İcmaya Qoşul" },
+      "intro": "Biz ailələrin inkişafı üçün lazım olan alətlər və icma dəstəyini təmin etməyə sadiqik.",
+      "helpline": {
+          "title": "Təcili Kömək Lazımdır?",
+          "desc": "Könüllülərimiz və tibbi məsləhətçilərimiz WhatsApp və ya zəng vasitəsilə suallarınızı cavablandırmağa hazırdırlar.",
+          "card": {
+              "title": "24/7 Qaynar Xətt",
+              "text": "Təlim keçmiş icma üzvlərimizdən pulsuz rəhbərlik və emosional dəstək üçün indi əlaqə saxlayın."
+          }
+      }
+  },
+  "ContactPage": {
+      "title": "Bizimlə Əlaqə",
+      "visit": { "title": "Ünvanımız", "text": "Üzeyir Hacıbəyov 57, Bakı, Azərbaycan" },
+      "email": { "title": "E-poçt" },
+      "call": { "title": "Zəng Edin", "hours": "B.e.-Cümə, 09:00 - 18:00" },
+      "form": {
+          "name": "Ad və Soyad",
+          "email": "E-poçt Ünvanı",
+          "message": "Mesajınız",
+          "submit": "Göndər",
+          "sending": "Göndərilir...",
+          "successTitle": "Mesaj göndərildi!",
+          "successDesc": "Müraciətiniz üçün təşəkkür edirik. Tezliklə sizinlə əlaqə saxlayacağıq.",
+          "sendAnother": "Yenisini Göndər",
+          "errorGeneric": "Xəta baş verdi. Xahiş edirik yenidən cəhd edin.",
+          "validName": "Ad ən azı 2 simvol olmalıdır",
+          "validEmail": "Yanlış e-poçt ünvanı",
+          "validMessage": "Mesaj ən azı 10 simvol olmalıdır"
+      }
+  },
+  "DonatePage": {
+      "title": "Fərq Yaradın",
+      "description": "Sizin ianəniz əlil arabaları, tibbi ləvazimatlar və ümid bəxş edir.",
+      "bank": {
+          "title": "Bank Transferi Məlumatları",
+          "name": "Bank Adı",
+          "account": "Hesab Adı",
+          "iban": "IBAN",
+          "swift": "SWIFT Kodu"
+      },
+      "note": "İanəniz vergidən azaddır. Xahiş edirik köçürmə təsvirində adınızı qeyd edin."
+  },
+  "NewsPage": {
+      "title": "Xəbərlər və Hekayələr",
+      "subtitle": "Qələbələrimizi qeyd edirik və icmadan vacib yenilikləri paylaşırıq.",
+      "read": "Hekayəni Oxu",
+      "items": {
+          "judo": { "date": "24 Okt, 2024", "title": "Para-Cüdo Uğuru", "desc": "Bizim Əli Milli Çempionatda Qızıl medal qazandı! Bu, əzmkarlıq və bacarığın sübutudur." },
+          "law": { "date": "12 Sen, 2024", "title": "Yeni Sağlamlıq Təlimatları", "desc": "Uğur! Səhiyyə Nazirliyi fol turşusunun paylanması təklifimizi qəbul etdi." }
+      }
+  },
+  "ProgramsPage": {
+      "title": "Proqramlarımız",
+      "subtitle": "Təhsil, maarifləndirmə və birbaşa fəaliyyət vasitəsilə daha güclü gələcək qururuq.",
+      "conf": { "tag": "Tibbi Təlim", "title": "Tibbi Konfranslar", "desc": "Yerli həkimləri Spina Bifida bərpası üçün ən son neyrocərrahi texnikalar üzrə öyrətmək üçün beynəlxalq mütəxəssislərlə əməkdaşlıq edirik." },
+      "edu": { "tag": "Təhsil", "title": "İnklüziv Təhsil", "desc": "Hər bir uşağın adi məktəbə gedə bilməsini təmin etmək üçün müəllimlər üçün seminarlar." },
+      "camp": { "tag": "İcma", "title": "Yay Düşərgəsi", "desc": "Yeniyetmələrin evdən kənarda dostluq, idman bacarıqları və müstəqillik qazanması üçün illik əlçatan düşərgə." }
+  },
+  "LivingWithPage": {
+      "title": "Spina Bifida ilə Həyat",
+      "intro": "Həyatın hər mərhələsinin özünəməxsus çətinlikləri və gözəl qələbələri var. Biz hər addımda sizinləyik.",
+      "child": { "title": "Uşaqlıq", "desc": "Erkən müdaxilə əsasdır. Biz ailələrə bağçaya inteqrasiya, düzgün əlil arabasının tapılması və erkən fizioterapiya rutinlərinin qurulması ilə dəstək oluruq." },
+      "teen": { "title": "Yeniyetməlik", "desc": "Yeniyetməlik dövründə sosial həyat və bədən imici. Özünə inam seminarları və həmyaşıd dəstək qrupları təşkil edirik." },
+      "adult": { "title": "Yetkinlik", "desc": "SB-li yetkinlər üçün müstəqil yaşayış, universitet əlçatanlığı və məşğulluq hüquqlarını müdafiə edirik." },
+      "philosophy": {
+          "title": "İmkanlarla Dolu Bir Həyat",
+          "text": "\"Spina Bifida kim olduğunuzun bir hissəsidir, lakin kim olacağınızı müəyyən etmir. Para-idmandan akademik nailiyyətlərə qədər, icmamızın üzvləri hər gün sübut edirlər ki, əldə edilə biləcək nailiyyətlərin sərhədi yoxdur.\""
+      }
+  },
+  "Branding": {
+      "colors": "Rənglər",
+      "logo": {
+          "title": "Loqo",
+          "upload": "Loqonuzu bura yükləyin",
+          "formats": "PNG, JPG, WebP, HEIC, SVG"
+      },
+      "mission": {
+          "title": "Missiya",
+          "placeholder": "Brendiniz haqqında bizə danışın..."
+      },
+      "niches": {
+          "title": "Nişlər",
+          "placeholder": "Nişləri seçin"
+      },
+      "save": "Profil Yadda Saxla",
+      "saving": "Yadda saxlanılır...",
+      "success": "Profil uğurla yadda saxlanıldı!"
+  }
+}

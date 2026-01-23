@@ -1,0 +1,72 @@
+.iconCircle {
+  background-color: var(--color-primary-light);
+  width: 100px;
+  height: 100px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  color: var(--color-primary);
+  transform: rotate(-5deg);
+  transition: all 0.3s ease;
+}
+
+.livingCard:hover .iconCircle {
+  transform: rotate(0deg) scale(1.1);
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: var(--color-primary-dark);
+}
+
+.cardDesc {
+  color: var(--color-text-light);
+  line-height: 1.7;
+}
+
+.philosophySection {
+  background-color: var(--color-primary-dark);
+  color: white;
+  padding: var(--section-padding) 0;
+  margin-top: 4rem;
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.philosophySection::after {
+  content: '"';
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 15rem;
+  opacity: 0.05;
+  font-family: serif;
+  line-height: 0;
+}
+
+.philosophyContent {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.philosophyTitle {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.philosophyText {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+  opacity: 0.8;
+  line-height: 1.8;
+  font-weight: 400;
+}

@@ -1,0 +1,237 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 0;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background: transparent;
+}
+
+.header.scrolled {
+  padding: 1rem 0;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  z-index: 1100;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.02);
+}
+
+.logoText {
+  font-family: var(--font-montserrat);
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+}
+
+.logoHighlight {
+  color: var(--color-secondary);
+  font-size: 2rem;
+  line-height: 0;
+  margin-left: 1px;
+}
+
+/* Desktop Nav */
+.desktopNav {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktopNav {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.navLink {
+  font-weight: 700;
+  color: var(--color-text-light);
+  font-size: 0.8125rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.navLink:hover {
+  color: var(--color-primary);
+  background: rgba(15, 118, 110, 0.04);
+}
+
+.navLink.active {
+  color: white;
+  background: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(15, 118, 110, 0.2);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  z-index: 1100;
+}
+
+.donateBtn {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .donateBtn {
+    display: inline-flex;
+    font-size: 0.8125rem;
+    padding: 0.7rem 1.75rem;
+    background: var(--color-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+.mobileToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  color: var(--color-primary-dark);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.mobileToggle:hover {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 1024px) {
+  .mobileToggle {
+    display: none;
+  }
+}
+
+/* Mobile Nav Overlay */
+.mobileNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  clip-path: circle(0% at 90% 5%);
+  transition: clip-path 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+.mobileNav::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 90% 5%, var(--color-primary-light), white 60%);
+  opacity: 0.5;
+}
+
+.mobileNav.open {
+  clip-path: circle(150% at 90% 5%);
+}
+
+.mobileNavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.mobileNavLink {
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-family: var(--font-montserrat);
+  color: var(--color-primary-dark);
+  transition: all 0.3s ease;
+  letter-spacing: -0.02em;
+}
+
+.mobileNavLink.active {
+  color: var(--color-primary);
+}
+
+.mobileNavLink:active {
+  transform: scale(0.95);
+  color: var(--color-secondary);
+}
+
+.mobileFooter {
+  position: absolute;
+  bottom: 4rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 2.5rem;
+  z-index: 1;
+}
+
+.desktopOnly {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktopOnly {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "HomePage": {
+    "title": "Stronger Together: A Future Without Limits",
+    "badge": "Advocating for Progress",
+    "subtitle": "The National Association for Spina Bifida Support in Azerbaijan",
+    "getSupport": "Get Support",
+    "learnMore": "Learn About Spina Bifida",
+    "mission": "We are the national voice for awareness, medical access, and social inclusion.",
+    "focus": {
+        "title": "Our Focus Areas",
+        "support": { "title": "Support", "desc": "Direct assistance for families navigating diagnosis and daily life." },
+        "education": { "title": "Education", "desc": "Medically accurate resources for patients and professionals." },
+        "advocacy": { "title": "Advocacy", "desc": "Fighting for equal rights, accessibility, and healthcare policies." }
+    },
+    "impact": {
+        "title": "Making Real Change",
+        "stat1": { "val": "500+", "label": "Families Supported" },
+        "stat2": { "val": "50", "label": "Doctors Trained" },
+        "stat3": { "val": "100%", "label": "Dedicated to You" }
+    },
+    "cta": {
+        "title": "Join the Movement",
+        "desc": "Whether you are a parent, doctor, or friend - there is a place for you here.",
+        "btn": "Get Involved"
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "whatIsSB": "What Is SB?",
+    "livingWith": "Living With",
+    "support": "Support",
+    "programs": "Programs",
+    "news": "News",
+    "contact": "Contact",
+    "support_res": "Resources",
+    "support_map": "Medical Map",
+    "support_help": "Helpline"
+  },
+  "Common": {
+    "readMore": "Read More",
+    "donate": "Donate"
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "mission": {
+        "title": "Our Mission",
+        "text": "Founded by families and doctors, we are the first national organization dedicated solely to Spina Bifida in Azerbaijan. We believe that a diagnosis is just the beginning of a different, beautiful journey. We work tirelessly to erase stigma, provide medical resources, and build a community where no one feels alone."
+    },
+    "leadership": {
+        "title": "Leadership Team",
+        "doc": { "name": "Dr. Ilham Aliyev", "title": "Chief Medical Advisor", "desc": "Neurosurgeon with 20 years of experience in pediatric spinal care." },
+        "director": { "name": "Leyla Mammadova", "title": "Executive Director", "desc": "Parent advocate and founder of the 'Stronger Together' initiative." },
+        "counsel": { "name": "Rashad Huseynov", "title": "Legal Advisor", "desc": "Specializing in disability rights and healthcare policy in Azerbaijan." }
+    },
+    "values": {
+        "title": "Our Values",
+        "dignity": { "title": "Dignity", "desc": "Every person deserves respect and opportunity." },
+        "community": { "title": "Community", "desc": "No family should face this challenge in isolation." },
+        "accuracy": { "title": "Accuracy", "desc": "We provide facts, not fear." }
+    }
+  },
+  "WhatIsSBPage": {
+      "title": "Understanding Spina Bifida",
+      "intro": "Spina Bifida is a neural tube defect that occurs during the first month of pregnancy. It is one of the most common birth defects affecting the spine and spinal cord.",
+      "prevention": {
+          "title": "Prevention & Folic Acid",
+          "text": "Scientific research shows that up to 70% of Spina Bifida cases can be prevented if women take 400mcg of Folic Acid daily, starting at least one month before conception and throughout the first trimester."
+      },
+      "types": {
+          "title": "Clinical Types",
+          "occulta": { "term": "Spina Bifida Occulta", "desc": "The 'hidden' form. There is typically a small gap in the spine but no opening or sac on the back. Most people live healthy lives without ever knowing." },
+          "meningocele": { "term": "Meningocele", "desc": "A sac of fluid comes through an opening in the baby’s back, but the spinal cord is not in this sac. Damage is usually minimal." },
+          "myelomeningocele": { "term": "Myelomeningocele (Open Spina Bifida)", "desc": "The most complex form. A sac containing parts of the spinal cord and nerves comes through an opening. This causes moderate to severe disabilities." },
+          "lipomyelomeningocele": { "term": "Lipomyelomeningocele", "desc": "A form of Spina Bifida where a fatty mass is attached to the spinal cord. It can cause progressive nerve damage if not managed." }
+      },
+      "myths": {
+          "title": "Common Myths",
+          "item": "Myth: It is hereditary or a curse. Fact: It is a combination of genetic and environmental factors. It is not anyone's 'fault'."
+      },
+        "diagnosis": {
+            "title": "How is it Diagnosed?",
+            "prenatalLabel": "Prenatal",
+            "prenatal": "Most cases are detected during pregnancy through blood tests (AFP) and detailed ultrasounds. In some cases, fetal surgery can be performed to improve outcomes.",
+            "postnatalLabel": "Postnatal",
+            "postnatal": "After birth, MRI or CT scans are used to get a clear picture of the spine and brain structure."
+        },
+      "treatment": {
+          "title": "Treatment & Management",
+          "surgery": "Surgery to close the spine is usually performed within 48 hours of birth. Some babies may also require a 'shunt' to manage fluid on the brain (hydrocephalus).",
+          "multidisciplinary": "Care involves a team: neurosurgeons, urologists, orthopedic surgeons, and physical therapists."
+      },
+      "management": {
+          "title": "Critical Care & Management",
+          "intro": "Living with Spina Bifida requires lifelong vigilance in several key areas to ensure the best quality of life.",
+          "kidneyInfection": { "title": "Protecting Kidneys from Infection", "text": "Preserving kidney function and staying vigilant against infections, especially UTIs, is a top priority." },
+          "orthopedic": { "title": "Orthopedic Check-ups", "text": "Regular orthopedic monitoring is essential for maintaining mobility and managing spinal issues." },
+          "rehab": { "title": "Ongoing Rehabilitation", "text": "Physical therapy and rehabilitation must be a consistent, lifelong part of the care routine." },
+          "psychology": { "title": "Psychological Support", "text": "Mental health support for both the individual and their family is vital for emotional well-being and adaptation." }
+      }
+  },
+  "SupportPage": {
+      "title": "Support & Resources",
+      "p100": { "title": "First 100 Days Guide", "desc": "Essential guide for new parents navigating a diagnosis. Understanding the medical terms and first steps." },
+      "map": { "title": "Medical Map", "desc": "Find specialized neurological and urological care centers in Baku and the regions." },
+      "mentor": { "title": "Parent Mentoring", "desc": "Connect with experienced families who have walked this path before. Join our WhatsApp group." },
+      "btn": { "download": "Download PDF", "view": "View Map", "join": "Join Community" },
+      "intro": "We are dedicated to providing families with the tools and community they need to thrive.",
+      "helpline": {
+          "title": "Quick Help Needed?",
+          "desc": "Our volunteers and medical consultants are available to answer your immediate questions via WhatsApp or phone call.",
+          "card": {
+              "title": "24/7 Helpline",
+              "text": "Connect now for free guidance and emotional support from our trained community members."
+          }
+      }
+  },
+  "ContactPage": {
+      "title": "Contact Us",
+      "visit": { "title": "Visit Us", "text": "Uzeyir Hajibeyov 57, Baku, Azerbaijan" },
+      "email": { "title": "Email Us" },
+      "call": { "title": "Call Us", "hours": "Mon-Fri, 9am - 6pm" },
+      "form": {
+          "name": "Full Name",
+          "email": "Email Address",
+          "message": "How can we help you?",
+          "submit": "Send Message",
+          "sending": "Sending...",
+          "successTitle": "Message Sent!",
+          "successDesc": "Thank you for reaching out. We will get back to you shortly.",
+          "sendAnother": "Send Another",
+          "errorGeneric": "Something went wrong. Please try again.",
+          "validName": "Name must be at least 2 characters",
+          "validEmail": "Invalid email address",
+          "validMessage": "Message must be at least 10 characters"
+      }
+  },
+  "DonatePage": {
+      "title": "Make a Difference",
+      "description": "Your donation helps us provide wheelchairs, medical supplies, and hope.",
+      "bank": {
+          "title": "Bank Transfer Details",
+          "name": "Bank Name",
+          "account": "Account Name",
+          "iban": "IBAN",
+          "swift": "SWIFT Code"
+      },
+      "note": "Your donation is tax-deductible. Please include your name in the transfer description."
+  },
+  "NewsPage": {
+      "title": "News & Stories",
+      "subtitle": "Celebrating our victories and sharing important updates from the community.",
+      "read": "Read Story",
+      "items": {
+          "judo": { "date": "Oct 24, 2024", "title": "Para-Judo Success", "desc": "Our very own Ali wins Gold at the National Championship! A testament to determination and skill." },
+          "law": { "date": "Sep 12, 2024", "title": "New Health Guidelines", "desc": "Success! The Ministry of Health accepts our proposal for mandatory folic acid distribution." }
+      }
+  },
+  "ProgramsPage": {
+      "title": "Our Programs",
+      "subtitle": "Building a stronger future through education, awareness, and direct action.",
+      "conf": { "tag": "Medical Training", "title": "Medical Conferences", "desc": "We partner with international experts to train local doctors in the latest neurosurgical techniques for Spina Bifida repair." },
+      "edu": { "tag": "Education", "title": "Inclusive Education", "desc": "Workshops for teachers on supporting students with mobility aids to ensure every child can attend regular school." },
+      "camp": { "tag": "Community", "title": "Summer Camp", "desc": "An annual accessible retreat for teens to build friendship, sports skills, and independence away from home." }
+  },
+  "LivingWithPage": {
+      "title": "Life with Spina Bifida",
+      "intro": "Every stage of life has its unique challenges and beautiful victories. We are with you on every step.",
+      "child": { "title": "Childhood", "desc": "Early intervention is key. We support families with kindergarten integration, finding the right wheelchair, and establishing early physio routines." },
+      "teen": { "title": "Adolescence", "desc": "Navigating social life and body image during teenage years. We run confidence-building workshops and peer support groups." },
+      "adult": { "title": "Adulthood", "desc": "Advocating for independent living, university accessibility, and employment rights for adults with Spina Bifida." },
+      "philosophy": {
+          "title": "A Life Full of Possibilities",
+          "text": "\"Spina Bifida is part of who you are, but it doesn't define who you will become. From para-athletics to academic excellence, our community members are proving every day that there are no limits to what can be achieved.\""
+      }
+  },
+  "Branding": {
+      "colors": "Colors",
+      "logo": {
+          "title": "Logo",
+          "upload": "Upload your Logo here",
+          "formats": "PNG, JPG, WebP, HEIC, SVG"
+      },
+      "mission": {
+          "title": "Mission",
+          "placeholder": "Tell us about your brand..."
+      },
+      "niches": {
+          "title": "Niches",
+          "placeholder": "Select niches"
+      },
+      "save": "Save Profile",
+      "saving": "Saving...",
+      "success": "Profile saved successfully!"
+  }
+}
