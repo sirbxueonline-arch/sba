@@ -6,6 +6,7 @@ import { Inter, Montserrat } from "next/font/google";
 import "@/app/globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat" });
@@ -45,6 +46,7 @@ export default async function LocaleLayout({children, params}: Props) {
           </main>
           <Footer />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
