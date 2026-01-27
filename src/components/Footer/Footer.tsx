@@ -120,7 +120,7 @@ export default function Footer() {
           
           <span style={{fontWeight: 400, opacity: 0.7}}>by</span>{' '}
           <a 
-            href="https://guluzadastudio.com" 
+            href="https://guluzada.uk" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{
