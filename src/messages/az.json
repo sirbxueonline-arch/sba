@@ -49,9 +49,7 @@
     },
     "leadership": {
         "title": "Rəhbərlik",
-        "doc": { "name": "Dr. İlham Əliyev", "title": "Baş Tibbi Məsləhətçi", "desc": "Pediatrik onurğa baxımı üzrə 20 illik təcrübəyə malik neyrocərrah." },
-        "director": { "name": "Leyla Məmmədova", "title": "İcraçı Direktor", "desc": "Valideyn müdafiəçisi və 'Birlikdə Daha Güclü' təşəbbüsünün təsisçisi." },
-        "counsel": { "name": "Rəşad Hüseynov", "title": "Hüquq Məsləhətçisi", "desc": "Azərbaycanda əlillik hüquqları və səhiyyə siyasəti üzrə mütəxəssis." }
+        "director": { "name": "Aynur Quluzada", "title": "Rəhbər", "desc": "Azərbaycan Spina Bifida Dəstək Assosiasiyasının rəhbəri və təsisçisi." }
     },
     "values": {
         "title": "Dəyərlərimiz",

@@ -49,9 +49,7 @@
     },
     "leadership": {
         "title": "Leadership Team",
-        "doc": { "name": "Dr. Ilham Aliyev", "title": "Chief Medical Advisor", "desc": "Neurosurgeon with 20 years of experience in pediatric spinal care." },
-        "director": { "name": "Leyla Mammadova", "title": "Executive Director", "desc": "Parent advocate and founder of the 'Stronger Together' initiative." },
-        "counsel": { "name": "Rashad Huseynov", "title": "Legal Advisor", "desc": "Specializing in disability rights and healthcare policy in Azerbaijan." }
+        "director": { "name": "Aynur Quluzada", "title": "Director", "desc": "Head and founder of the Azerbaijan Spina Bifida Support Association." }
     },
     "values": {
         "title": "Our Values",

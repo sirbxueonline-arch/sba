@@ -93,46 +93,18 @@ export default function AboutPage() {
                 {t('leadership.title')}
               </motion.h2>
 
-              <div className="grid-3">
+              <div className="flex justify-center">
                  <motion.div 
                    className={styles.leaderCard}
                    initial="hidden"
                    whileInView="visible"
                    viewport={{ once: true }}
                    variants={revealVariants}
-                 >
-                   <div className={styles.leaderAvatar}>👨‍⚕️</div>
-                   <h3 className={styles.cardTitle}>{t('leadership.doc.name')}</h3>
-                   <p className={styles.leaderRole}>{t('leadership.doc.title')}</p>
-                   <p className={styles.leaderDesc}>{t('leadership.doc.desc')}</p>
-                 </motion.div>
-                 
-                 <motion.div 
-                   className={styles.leaderCard}
-                   initial="hidden"
-                   whileInView="visible"
-                   viewport={{ once: true }}
-                   variants={revealVariants}
-                   transition={{ delay: 0.2 }}
                  >
                    <div className={styles.leaderAvatar}>👩‍💼</div>
                    <h3 className={styles.cardTitle}>{t('leadership.director.name')}</h3>
                    <p className={styles.leaderRole}>{t('leadership.director.title')}</p>
                    <p className={styles.leaderDesc}>{t('leadership.director.desc')}</p>
-                 </motion.div>
-      
-                 <motion.div 
-                   className={styles.leaderCard}
-                   initial="hidden"
-                   whileInView="visible"
-                   viewport={{ once: true }}
-                   variants={revealVariants}
-                   transition={{ delay: 0.4 }}
-                 >
-                   <div className={styles.leaderAvatar}>⚖️</div>
-                   <h3 className={styles.cardTitle}>{t('leadership.counsel.name')}</h3>
-                   <p className={styles.leaderRole}>{t('leadership.counsel.title')}</p>
-                   <p className={styles.leaderDesc}>{t('leadership.counsel.desc')}</p>
                  </motion.div>
               </div>
             </div>

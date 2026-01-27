@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import ContactForm from '@/components/UI/ContactForm';
 import PageHeader from '@/components/UI/PageHeader';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import styles from './contact.module.css';
@@ -91,7 +90,17 @@ export default function ContactPage() {
               variants={revealVariants}
               transition={{ delay: 0.4 }}
             >
-              <ContactForm />
+              <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfCgxaqxqVVBcFJQWxasbJteqZiOWbzJx-SyVAItph7Ha4vwA/viewform?embedded=true" 
+                width="100%" 
+                height="800" 
+                frameBorder="0" 
+                marginHeight={0} 
+                marginWidth={0}
+                style={{ borderRadius: '16px', border: '1px solid rgba(0,0,0,0.1)' }}
+              >
+                Loading…
+              </iframe>
             </motion.div>
           </div>
         </div>
