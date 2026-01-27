@@ -41,7 +41,9 @@ export default function Hero() {
           variants={containerVariants}
         >
            <motion.div variants={itemVariants} className={styles.badge}>
-              <span style={{fontSize: '1.2rem'}}>🇦🇿</span> {t('badge')}
+              <Link href="/contact" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', color: 'inherit' }}>
+                 <span style={{fontSize: '1.2rem'}}>📝</span> {t('badge')}
+              </Link>
            </motion.div>
            
            <motion.h1 variants={itemVariants} className={styles.title}>
