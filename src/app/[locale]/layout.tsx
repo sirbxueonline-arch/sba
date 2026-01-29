@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
@@ -42,6 +43,7 @@ export default async function LocaleLayout({children, params}: Props) {
           <Header />
           <main style={{ minHeight: '80vh', paddingTop: '80px' }}>
             {children}
+            <Analytics />
           </main>
           <Footer />
         </NextIntlClientProvider>
