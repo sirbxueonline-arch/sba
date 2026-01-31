@@ -1,11 +1,23 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import PageHeader from '@/components/UI/PageHeader';
-import { ShieldCheck, Stethoscope, Microscope, Beaker, UserCheck, Activity, Brain } from 'lucide-react';
+import { ShieldCheck, Stethoscope, Microscope, Brain, MapPin, HelpCircle } from 'lucide-react';
 import styles from './whatIsSB.module.css';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import * as Motion from 'framer-motion';
+
+// Workaround for Framer Motion SSR issues if necessary, or just use motion directly
+const motion = Motion.motion;
+
+export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
+  const {locale} = await params;
+  constt = await getTranslations({locale, namespace: 'WhatIsSBPage'});
+ 
+  return {
+    title: t('title'),
+    description: t('intro')
+  };
+}
 
 export default function WhatIsSBPage() {
   const t = useTranslations('WhatIsSBPage');
@@ -17,7 +29,7 @@ export default function WhatIsSBPage() {
     { key: 'lipomyelomeningocele', img: '/images/sb-types/lipomyelomeningocele.png', highlight: false },
   ];
 
-  const revealVariants: any = {
+  const revealVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
@@ -26,7 +38,7 @@ export default function WhatIsSBPage() {
     }
   };
 
-  const staggerContainer: any = {
+  const staggerContainer = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -164,6 +176,30 @@ export default function WhatIsSBPage() {
          </div>
       </section>
 
+      {/* Local Care Section (New) */}
+      <section className="section" style={{ padding: '4rem 0', background: '#f0f9ff' }}>
+        <div className="container">
+          <motion.div
+             className="card"
+             initial="hidden"
+             whileInView="visible"
+             viewport={{ once: true }}
+             variants={revealVariants}
+             style={{ display: 'flex', gap: '2rem', alignItems: 'center', border: '2px solid var(--color-secondary)' }}
+          >
+             <div style={{ flex: 1 }}>
+                <div className={styles.headerTitle}>
+                    <MapPin color="var(--color-secondary)" size={32} />
+                    <h2 className={styles.titleText}>{t('localCare.title')}</h2>
+                </div>
+                <p className="description" style={{ fontSize: '1.2rem' }}>
+                  {t('localCare.text')}
+                </p>
+             </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Critical Care & Management Section */}
       <section className={styles.managementSection}>
          <div className="container">
@@ -227,6 +263,40 @@ export default function WhatIsSBPage() {
                </motion.div>
             </motion.div>
          </div>
+      </section>
+
+      {/* FAQ Section (New) */}
+      <section className="section" style={{ background: '#fff' }}>
+        <div className="container">
+           <motion.div
+             initial="hidden"
+             whileInView="visible"
+             viewport={{ once: true }}
+             variants={staggerContainer}
+           >
+              <div className={styles.typesHeader} style={{ marginBottom: '3rem' }}>
+                 <HelpCircle color="var(--color-primary)" size={32} style={{ margin: '0 auto 1rem', display: 'block' }} />
+                 <h2 className="section-title">{t('faq.title')}</h2>
+              </div>
+              <div style={{ maxWidth: '800px', margin: '0 auto', display: 'grid', gap: '1.5rem' }}>
+                {[1, 2, 3, 4, 5, 6].map((num) => (
+                  <motion.div 
+                    key={num} 
+                    className="card" 
+                    variants={revealVariants}
+                    style={{ padding: '1.5rem' }}
+                  >
+                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: 'var(--color-primary-dark)' }}>
+                      {t(`faq.q${num}` as any)}
+                    </h3>
+                    <p className="description">
+                      {t(`faq.a${num}` as any)}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
+           </motion.div>
+        </div>
       </section>
     </>
   );

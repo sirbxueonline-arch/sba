@@ -59,42 +59,61 @@
     }
   },
   "WhatIsSBPage": {
-      "title": "Spina Bifida Nədir?",
-      "intro": "Spina Bifida hamiləliyin ilk ayında baş verən sinir borusu qüsurudur. Bu, onurğa və onurğa beyninə təsir edən ən çox yayılmış anadangəlmə qüsurlardan biridir.",
+      "title": "Spina Bifida Nədir: Səbəblər, Növlər və Qayğı",
+      "intro": "Spina Bifida hamiləliyin ilk ayında baş verən sinir borusu qüsurudur. Spina bifida növləri, əlamətləri və spina bifida ilə yaşamaq haqqında öyrənin.",
       "prevention": {
           "title": "Profilaktika və Fol Turşusu",
-          "text": "Elmi araşdırmalar göstərir ki, hamiləlikdən ən azı bir ay əvvəl və ilk üç ay ərzində hər gün 400 mkq Fol Turşusu qəbul edilərsə, Spina Bifida hallarının 70%-ə qədəri qarşısı alına bilər."
+          "text": "Elmi araşdırmalar göstərir ki, 400 mkq Fol Turşusu qəbul edilərsə, Spina Bifida hallarının 70%-i qarşısı alına bilər. Spina bifida qarşısının alınması üçün fol turşusu vacibdir."
       },
       "types": {
-          "title": "Klinik Növlər",
+          "title": "Spina Bifida Növləri",
           "occulta": { "term": "Spina Bifida Okkulta", "desc": "Gizli forma. Adətən onurğada kiçik bir boşluq olur, lakin beldə açıqlıq və ya kisə yoxdur. Bir çox insan bunun fərqinə varmadan yaşayır." },
           "meningocele": { "term": "Meninqosele", "desc": "Uşağın belindəki açıqlıqdan maye dolu bir kisə çıxır, lakin onurğa beyni bu kisənin içində deyil. Sinir zədələnməsi minimal olur." },
-          "myelomeningocele": { "term": "Mielomeninqosele (Açıq Spina Bifida)", "desc": "Ən mürəkkəb forma. Onurğa beyninin hissələri və sinirlər açıqlıqdan çıxan kisənin içində olur. Bu, ciddi əlilliyə səbəb ola bilər." },
+          "myelomeningocele": { "term": "Mielomeninqosele (Açıq Spina Bifida)", "desc": "Ən mürəkkəb forma. Onurğa beyninin hissələri və sinirlər açıqlıqdan çıxan kisənin içində olur. Bu, ciddi əlilliyə səbəb ola bilər və sıx spina bifida reabilitasiyası tələb edir." },
           "lipomyelomeningocele": { "term": "Lipomielomeninqosele", "desc": "Spina Bifida-nın bir formasıdır ki, burada onurğa beyninə piy kütləsi birləşir. İdarə olunmazsa, mütərəqqi sinir zədələnməsinə səbəb ola bilər." }
       },
       "myths": {
           "title": "Miflərin Doğrusu",
-          "item": "Mif: Bu irsidir və ya bir qarğışdır. Fakt: Bu genetik və ekoloji amillərin birləşməsidir. Bu heç kimin 'günahı' deyil."
+          "item": "Mif: Bu irsidir və ya bir qarğışdır. Fakt: Bu genetik və ekoloji amillərin birləşməsidir. Spina bifida irsidirmi? Tamamilə irsi deyil, lakin risk faktorları var."
       },
         "diagnosis": {
-            "title": "Necə Diaqnoz Qoyulur?",
+            "title": "Spina Bifida Diaqnozu",
             "prenatalLabel": "Prenatal (Bətndaxili)",
-            "prenatal": "Əksər hallar hamiləlik zamanı qan testləri (AFP) və ətraflı USM vasitəsilə aşkar edilir. Bəzi hallarda nəticələri yaxşılaşdırmaq üçün bətndaxili əməliyyat edilə bilər.",
+            "prenatal": "Əksər hallar hamiləlik zamanı qan testləri (AFP) və ətraflı USM vasitəsilə aşkar edilir. Spina bifida nə qədər erkən aşkar edilə bilər? İkinci trimestrdə bilinə bilər.",
             "postnatalLabel": "Postnatal (Doğuşdan Sonra)",
-            "postnatal": "Doğuşdan sonra onurğa və beyin strukturunun dəqiq görüntüsünü almaq üçün MRT və ya KT skanlarından istifadə olunur."
+            "postnatal": "Doğuşdan sonra spina bifida əlamətləri dəqiq müəyyən edilir və MRT ilə təsdiqlənir."
         },
       "treatment": {
-          "title": "Müalicə və İdarəetmə",
+          "title": "Spina Bifida Müalicəsi",
           "surgery": "Onurğanın bağlanması üçün əməliyyat adətən doğuşdan sonra 48 saat ərzində həyata keçirilir. Bəzi körpələrə beyində maye toplanmasını idarə etmək üçün 'şunt' tələb oluna bilər.",
-          "multidisciplinary": "Qulluq komanda işidir: neyrocərrahlar, uroloqlar, ortopedlər və fizioterapevtlər bu prosesdə iştirak edirlər."
+          "multidisciplinary": "Spina bifida qayğı xidmətləri komanda işidir: neyrocərrahlar, uroloqlar, ortopedlər və spina bifida mütəxəssisi birgə çalışır."
       },
       "management": {
           "title": "Əsas Diqqət Olunmalı Məqamlar",
-          "intro": "Spina Bifida ilə yaşamaq, ən yaxşı həyat keyfiyyətini təmin etmək üçün bir neçə əsas sahədə ömürlük diqqət tələb edir.",
-          "kidneyInfection": { "title": "Böyrəyi infeksiyadan qorumaq", "text": "Böyrək funksiyasını qorumaq və infeksiyalara, xüsusən də sidik yolu infeksiyalarına qarşı diqqətli olmaq ən yüksək prioritetdir." },
-          "orthopedic": { "title": "Ortopedik müayinələr", "text": "Hərəkətliliyin təmin edilməsi və onurğa problemlərinin idarə olunması üçün mütəmadi ortopedik nəzarət vacibdir." },
-          "rehab": { "title": "Daimi reabilitasiya", "text": "Fizioterapiya və reabilitasiya qulluq rutininin daimi və ömürlük bir hissəsi olmalıdır." },
-          "psychology": { "title": "Psixoloji dəstək", "text": "Həm fərd, həm də ailəsi üçün emosional rifah və adaptasiya məqsədilə psixoloji yardımdan istifadə edilməlidir." }
+          "intro": "Spina Bifida ilə yaşamaq, ən yaxşı həyat keyfiyyətini təmin etmək üçün diqqət tələb edir. Spina bifida klinikası müntəzəm yoxlanışlar üçün vacibdir.",
+          "kidneyInfection": { "title": "Böyrəyi Qorumaq", "text": "Böyrək funksiyasını qorumaq və infeksiyalara qarşı diqqətli olmaq ən yüksək prioritetdir." },
+          "orthopedic": { "title": "Ortopedik Müayinələr", "text": "Hərəkətliliyin təmin edilməsi və onurğa problemlərinin idarə olunması üçün spina bifida həkimi tərəfindən nəzarət vacibdir." },
+          "rehab": { "title": "Daimi Reabilitasiya", "text": "Fizioterapiya və spina bifida terapiyası qulluq rutininin daimi bir hissəsi olmalıdır." },
+          "psychology": { "title": "Psixoloji Dəstək", "text": "Spina bifida dəstək xidmətləri həm fərd, həm də ailəsi üçün emosional rifah üçün vacibdir." }
+      },
+      "localCare": {
+        "title": "Azərbaycanda Spina Bifida Qayğısı",
+        "text": "Bakıda spina bifida mütəxəssisi tapmaq və ya Azərbaycanda spina bifida müalicəsi almaq üçün bizə müraciət edin. Biz ailələri Azərbaycanda uşaq nevrologiyası və Bakıda uşaqlar üçün reabilitasiya mərkəzləri ilə əlaqələndiririk."
+      },
+      "faq": {
+        "title": "Tez-tez Verilən Suallar",
+        "q1": "Körpələrdə spina bifida nədən yaranır?",
+        "a1": "Dəqiq səbəb bilinmir, lakin genetik və ətraf mühit faktorları, məsələn, fol turşusu çatışmazlığı rol oynayır.",
+        "q2": "Spina bifidanın qarşısını almaq mümkündürmü?",
+        "a2": "Hamiləlikdən əvvəl və hamiləlik dövründə fol turşusu qəbul etmək riski əhəmiyyətli dərəcədə azaldır.",
+        "q3": "Spina bifida necə müalicə olunur?",
+        "a3": "Müalicə doğuşdan sonrakı əməliyyatdan başlayaraq, ömür boyu davam edən fizioterapiya və tibbi nəzarəti əhatə edir.",
+        "q4": "Spina bifida olan insanlar yeriyə bilərmi?",
+        "a4": "Bu, ağırlıq dərəcəsindən asılıdır. Bir çoxları köməkçi vasitələrlə yeriyir, digərləri isə əlil arabasından istifadə edir.",
+        "q5": "Spina bifida olan uşağa necə qulluq etməli?",
+        "a5": "Mütəmadi olaraq spina bifida mütəxəssisi tərəfindən müayinə olunmaq, dərini qorumaq və fizioloji ehtiyacları idarə etmək vacibdir.",
+        "q6": "Spina bifida irsidirmi?",
+        "a6": "Genetik faktor var, lakin spina bifidalı körpələrin 95%-i ailə tarixçəsində bu problem olmayan valideynlərdən doğulur."
       }
   },
   "SupportPage": {

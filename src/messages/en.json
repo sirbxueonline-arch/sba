@@ -59,42 +59,61 @@
     }
   },
   "WhatIsSBPage": {
-      "title": "Understanding Spina Bifida",
-      "intro": "Spina Bifida is a neural tube defect that occurs during the first month of pregnancy. It is one of the most common birth defects affecting the spine and spinal cord.",
+      "title": "Understanding Spina Bifida: Causes, Types, and Care",
+      "intro": "Spina Bifida is a neural tube defect that occurs during the first month of pregnancy. Learn about spina bifida treatment, symptoms, and lived experiences.",
       "prevention": {
           "title": "Prevention & Folic Acid",
-          "text": "Scientific research shows that up to 70% of Spina Bifida cases can be prevented if women take 400mcg of Folic Acid daily, starting at least one month before conception and throughout the first trimester."
+          "text": "Scientific research shows that up to 70% of Spina Bifida cases can be prevented if women take 400mcg of Folic Acid daily. Folic acid and spina bifida prevention are strongly linked, and supplementation should start at least one month before conception."
       },
       "types": {
-          "title": "Clinical Types",
+          "title": "Types of Spina Bifida",
           "occulta": { "term": "Spina Bifida Occulta", "desc": "The 'hidden' form. There is typically a small gap in the spine but no opening or sac on the back. Most people live healthy lives without ever knowing." },
           "meningocele": { "term": "Meningocele", "desc": "A sac of fluid comes through an opening in the baby’s back, but the spinal cord is not in this sac. Damage is usually minimal." },
-          "myelomeningocele": { "term": "Myelomeningocele (Open Spina Bifida)", "desc": "The most complex form. A sac containing parts of the spinal cord and nerves comes through an opening. This causes moderate to severe disabilities." },
+          "myelomeningocele": { "term": "Myelomeningocele (Open Spina Bifida)", "desc": "The most complex form. A sac containing parts of the spinal cord and nerves comes through an opening. This causes moderate to severe disabilities often requiring spina bifida rehabilitation." },
           "lipomyelomeningocele": { "term": "Lipomyelomeningocele", "desc": "A form of Spina Bifida where a fatty mass is attached to the spinal cord. It can cause progressive nerve damage if not managed." }
       },
       "myths": {
           "title": "Common Myths",
-          "item": "Myth: It is hereditary or a curse. Fact: It is a combination of genetic and environmental factors. It is not anyone's 'fault'."
+          "item": "Myth: It is hereditary or a curse. Fact: It is a combination of genetic and environmental factors. It is not anyone's 'fault'. Is spina bifida genetic? While genetics play a role, it is not purely hereditary."
       },
         "diagnosis": {
-            "title": "How is it Diagnosed?",
+            "title": "Spina Bifida Diagnosis",
             "prenatalLabel": "Prenatal",
-            "prenatal": "Most cases are detected during pregnancy through blood tests (AFP) and detailed ultrasounds. In some cases, fetal surgery can be performed to improve outcomes.",
+            "prenatal": "Most cases are detected during pregnancy through blood tests (AFP) and detailed ultrasounds. How early can spina bifida be detected? Often as early as the second trimester.",
             "postnatalLabel": "Postnatal",
-            "postnatal": "After birth, MRI or CT scans are used to get a clear picture of the spine and brain structure."
+            "postnatal": "After birth, MRI or CT scans are used to get a clear picture of the spine and brain structure for spina bifida in babies."
         },
       "treatment": {
-          "title": "Treatment & Management",
+          "title": "Spina Bifida Treatment & Care",
           "surgery": "Surgery to close the spine is usually performed within 48 hours of birth. Some babies may also require a 'shunt' to manage fluid on the brain (hydrocephalus).",
-          "multidisciplinary": "Care involves a team: neurosurgeons, urologists, orthopedic surgeons, and physical therapists."
+          "multidisciplinary": "Spina bifida care services involve a team: neurosurgeons, urologists, orthopedic surgeons, and spina bifida specialists providing consultation."
       },
       "management": {
           "title": "Critical Care & Management",
-          "intro": "Living with Spina Bifida requires lifelong vigilance in several key areas to ensure the best quality of life.",
-          "kidneyInfection": { "title": "Protecting Kidneys from Infection", "text": "Preserving kidney function and staying vigilant against infections, especially UTIs, is a top priority." },
-          "orthopedic": { "title": "Orthopedic Check-ups", "text": "Regular orthopedic monitoring is essential for maintaining mobility and managing spinal issues." },
-          "rehab": { "title": "Ongoing Rehabilitation", "text": "Physical therapy and rehabilitation must be a consistent, lifelong part of the care routine." },
-          "psychology": { "title": "Psychological Support", "text": "Mental health support for both the individual and their family is vital for emotional well-being and adaptation." }
+          "intro": "Living with Spina Bifida requires lifelong vigilance to ensure the best quality of life. Accessing a spina bifida clinic for regular check-ups is crucial.",
+          "kidneyInfection": { "title": "Protecting Kidneys", "text": "Preserving kidney function and staying vigilant against infections, especially UTIs, is a top priority." },
+          "orthopedic": { "title": "Orthopedic Check-ups", "text": "Regular orthopedic monitoring by a spina bifida doctor is essential for maintaining mobility." },
+          "rehab": { "title": "Spina Bifida Rehabilitation", "text": "Physical therapy and spina bifida therapy must be a consistent, lifelong part of the care routine." },
+          "psychology": { "title": "Psychological Support", "text": "Mental health support allows for spina bifida support services that help with emotional well-being." }
+      },
+      "localCare": {
+        "title": "Spina Bifida Care in Azerbaijan",
+        "text": "Finding a spina bifida specialist in Baku or spina bifida treatment in Azerbaijan can be challenging. We help connect families with pediatric neurology in Azerbaijan and rehabilitation for children in Baku regarding neural tube defect treatment in Azerbaijan."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": "What causes spina bifida in babies?",
+        "a1": "The exact cause is unknown, but it involves a mix of genetic and environmental factors, such as low folic acid intake.",
+        "q2": "Can spina bifida be prevented?",
+        "a2": "Taking folic acid before and during early pregnancy significantly reduces the risk.",
+        "q3": "How is spina bifida treated?",
+        "a3": "Treatment ranges from surgery after birth to ongoing physiotherapy and medical management.",
+        "q4": "Can people with spina bifida walk?",
+        "a4": "It depends on the severity. Many walk with assistance, while others use wheelchairs. Early spina bifida rehabilitation helps maximize mobility.",
+        "q5": "How to care for a child with spina bifida?",
+        "a5": "Regular check-ups with a spina bifida specialist, managing bathroom routines, and skin care are vital.",
+        "q6": "Is spina bifida genetic?",
+        "a6": "There is a genetic component, but 95% of babies with spina bifida are born to parents with no family history."
       }
   },
   "SupportPage": {
