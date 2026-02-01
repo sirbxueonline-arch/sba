@@ -4,12 +4,12 @@ import { useTranslations } from 'next-intl';
 import PageHeader from '@/components/UI/PageHeader';
 import { Baby, School, Briefcase } from 'lucide-react';
 import styles from './livingWithSB.module.css';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function LivingWithSBPage() {
   const t = useTranslations('LivingWithPage');
 
-  const revealVariants: any = {
+  const revealVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
@@ -18,7 +18,7 @@ export default function LivingWithSBPage() {
     }
   };
 
-  const staggerContainer: any = {
+  const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,

@@ -4,12 +4,12 @@ import { useTranslations } from 'next-intl';
 import { FileText, MapPin, Users, HeartHandshake } from 'lucide-react';
 import PageHeader from '@/components/UI/PageHeader';
 import styles from './support.module.css';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function SupportPage() {
   const t = useTranslations('SupportPage');
 
-  const revealVariants: any = {
+  const revealVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
@@ -18,7 +18,7 @@ export default function SupportPage() {
     }
   };
 
-  const staggerContainer: any = {
+  const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -43,35 +43,24 @@ export default function SupportPage() {
             whileInView="visible"
             viewport={{ once: true }}
             variants={staggerContainer}
+            style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', justifyContent: 'center' }}
           >
-            {/* Resource 1 */}
-            <motion.div className={styles.supportCard} variants={revealVariants}>
-              <div className={styles.iconBox}>
-                 <FileText size={32} />
-              </div>
-              <h3 className={styles.cardTitle}>{t('p100.title')}</h3>
-              <p className={styles.cardBody}>{t('p100.desc')}</p>
-              <button className={`btn btn-primary ${styles.fullBtn}`}>{t('btn.download')}</button>
-            </motion.div>
-
-            {/* Resource 2 */}
-            <motion.div className={styles.supportCard} variants={revealVariants}>
-              <div className={styles.iconBox}>
-                 <MapPin size={32} />
-              </div>
-              <h3 className={styles.cardTitle}>{t('map.title')}</h3>
-              <p className={styles.cardBody}>{t('map.desc')}</p>
-              <button className={`btn btn-secondary ${styles.fullBtn}`}>{t('btn.view')}</button>
-            </motion.div>
-
-            {/* Resource 3 */}
+            {/* Resource 3 - Parent Mentoring (Now Main Resource) */}
             <motion.div className={styles.supportCard} variants={revealVariants}>
               <div className={styles.iconBox}>
                  <Users size={32} />
               </div>
               <h3 className={styles.cardTitle}>{t('mentor.title')}</h3>
               <p className={styles.cardBody}>{t('mentor.desc')}</p>
-              <button className={`btn btn-primary ${styles.fullBtn}`}>{t('btn.join')}</button>
+              <a 
+                href="https://chat.whatsapp.com/GkjHI3vlgN56PmNQ970H2L?mode=gi_t" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={`btn btn-primary ${styles.fullBtn}`}
+                style={{ textDecoration: 'none', display: 'inline-block', textAlign: 'center' }}
+              >
+                {t('btn.join')}
+              </a>
             </motion.div>
           </motion.div>
         </div>
@@ -106,7 +95,7 @@ export default function SupportPage() {
                       <h3 className={styles.helplineCardTitle}>{t('helpline.card.title')}</h3>
                    </div>
                    <p className={styles.helplineCardText}>{t('helpline.card.text')}</p>
-                   <a href="tel:+994501234567" className={styles.phoneNumber}>+994 50 123 45 67</a>
+                   <a href="tel:+994777444004" className={styles.phoneNumber}>+994 77 744 40 04</a>
                 </motion.div>
              </div>
           </div>

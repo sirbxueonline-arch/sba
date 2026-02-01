@@ -9,7 +9,7 @@ import { ArrowRight, Heart } from 'lucide-react';
 export default function Hero() {
   const t = useTranslations('HomePage');
 
-  const containerVariants: any = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -20,7 +20,7 @@ export default function Hero() {
     }
   };
 
-  const itemVariants: any = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,

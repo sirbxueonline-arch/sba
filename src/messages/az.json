@@ -116,8 +116,7 @@
   },
   "SupportPage": {
       "title": "Dəstək və Resurslar",
-      "p100": { "title": "İlk 100 Gün Bələdçisi", "desc": "Diaqnozla yeni qarşılaşan valideynlər üçün vacib bələdçi. Tibbi terminlərin izahı və ilk addımlar." },
-      "map": { "title": "Tibbi Xəritə", "desc": "Bakıda və bölgələrdə ixtisaslaşmış nevroloji və uroloji qayğı mərkəzlərini tapın." },
+
       "mentor": { "title": "Valideyn Mentorluğu", "desc": "Bu yolu əvvəllər keçmiş təcrübəli ailələrlə əlaqə qurun. WhatsApp qrupumuza qoşulun." },
       "btn": { "download": "PDF Yüklə", "view": "Xəritəyə Bax", "join": "İcmaya Qoşul" },
       "intro": "Biz ailələrin inkişafı üçün lazım olan alətlər və icma dəstəyini təmin etməyə sadiqik.",

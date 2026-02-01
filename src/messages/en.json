@@ -116,8 +116,7 @@
   },
   "SupportPage": {
       "title": "Support & Resources",
-      "p100": { "title": "First 100 Days Guide", "desc": "Essential guide for new parents navigating a diagnosis. Understanding the medical terms and first steps." },
-      "map": { "title": "Medical Map", "desc": "Find specialized neurological and urological care centers in Baku and the regions." },
+
       "mentor": { "title": "Parent Mentoring", "desc": "Connect with experienced families who have walked this path before. Join our WhatsApp group." },
       "btn": { "download": "Download PDF", "view": "View Map", "join": "Join Community" },
       "intro": "We are dedicated to providing families with the tools and community they need to thrive.",

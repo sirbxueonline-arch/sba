@@ -4,12 +4,12 @@ import { useTranslations } from 'next-intl';
 import { HeartHandshake, BookOpen, Scale } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import styles from './home.module.css';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function HomeContent() {
   const t = useTranslations('HomePage');
 
-  const revealVariants: any = {
+  const revealVariants: Variants = {
     hidden: { opacity: 0, y: 40 },
     visible: { 
       opacity: 1, 

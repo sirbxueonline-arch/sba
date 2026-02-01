@@ -29,7 +29,7 @@ export default function WhatIsSBPage() {
     { key: 'lipomyelomeningocele', img: '/images/sb-types/lipomyelomeningocele.png', highlight: false },
   ];
 
-  const revealVariants: any = {
+  const revealVariants: Motion.Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
@@ -38,7 +38,7 @@ export default function WhatIsSBPage() {
     }
   };
 
-  const staggerContainer: any = {
+  const staggerContainer: Motion.Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,

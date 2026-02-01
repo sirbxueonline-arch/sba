@@ -5,12 +5,12 @@ import { useTranslations } from 'next-intl';
 import { GraduationCap, Users2, Stethoscope, ArrowRight } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import styles from './programs.module.css';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function ProgramsPage() {
   const t = useTranslations('ProgramsPage');
 
-  const revealVariants: any = {
+  const revealVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
@@ -19,7 +19,7 @@ export default function ProgramsPage() {
     }
   };
 
-  const staggerContainer: any = {
+  const staggerContainer: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,

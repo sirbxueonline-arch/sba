@@ -5,12 +5,12 @@ import PageHeader from '@/components/UI/PageHeader';
 import { Target, ShieldCheck, Users, Heart, BookOpen, Scale } from 'lucide-react';
 import styles from './about.module.css';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function AboutPage() {
   const t = useTranslations('AboutPage');
 
-  const revealVariants: any = {
+  const revealVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 

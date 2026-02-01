@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Plus, ChevronDown, Check, Loader2 } from 'lucide-react';
 import styles from './branding.module.css';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, Variants } from 'framer-motion';
 
 export default function BrandingSection() {
   const t = useTranslations('Branding');
@@ -17,7 +17,7 @@ export default function BrandingSection() {
   const [isSaving, setIsSaving] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
 
-  const containerVariants: any = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,
@@ -30,7 +30,7 @@ export default function BrandingSection() {
     }
   };
 
-  const itemVariants: any = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { 
       opacity: 1, 

@@ -51,7 +51,7 @@ export default function Header() {
         <Link href="/" className={styles.logo}>
           <div style={{ position: 'relative', width: '180px', height: '60px' }}>
              <Image 
-               src="/logo.jpg" 
+               src="/logo.png" 
                alt="SBA Logo" 
                fill
                style={{ objectFit: 'contain', objectPosition: 'left center' }}

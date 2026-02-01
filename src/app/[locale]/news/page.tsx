@@ -4,12 +4,12 @@ import PageHeader from '@/components/UI/PageHeader';
 import { ArrowRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import styles from './news.module.css';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function NewsPage() {
     const t = useTranslations('NewsPage');
 
-    const revealVariants: any = {
+    const revealVariants: Variants = {
       hidden: { opacity: 0, y: 30 },
       visible: { 
         opacity: 1, 
@@ -18,7 +18,7 @@ export default function NewsPage() {
       }
     };
 
-    const staggerContainer: any = {
+    const staggerContainer: Variants = {
       hidden: { opacity: 0 },
       visible: {
         opacity: 1,

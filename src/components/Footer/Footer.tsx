@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import styles from './footer.module.css';
 import { Facebook, Instagram, Twitter, Linkedin, Heart } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 
 export default function Footer() {
@@ -13,7 +13,7 @@ export default function Footer() {
   
   const currentYear = new Date().getFullYear();
 
-  const revealVariants: any = {
+  const revealVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { 
       opacity: 1, 
@@ -37,7 +37,7 @@ export default function Footer() {
             <Link href="/" className={styles.logo}>
               <div style={{ position: 'relative', width: '200px', height: '70px' }}>
                 <Image 
-                  src="/logo.jpg" 
+                  src="/logo.png" 
                   alt="SBA Logo" 
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
