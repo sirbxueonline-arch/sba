@@ -144,7 +144,7 @@ export default function HomeContent() {
                <div className={styles.ctaContent}>
                   <h2 className={styles.ctaTitle}>{t('cta.title')}</h2>
                   <p className={styles.ctaDesc}>{t('cta.desc')}</p>
-                  <Link href="/contact" className={`btn btn-primary ${styles.ctaBtn}`}>
+                  <Link href="/support" className={`btn btn-primary ${styles.ctaBtn}`}>
                     {t('cta.btn')}
                   </Link>
                </div>

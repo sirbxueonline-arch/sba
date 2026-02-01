@@ -11,7 +11,7 @@ const motion = Motion.motion;
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
   const {locale} = await params;
-  constt = await getTranslations({locale, namespace: 'WhatIsSBPage'});
+  const t = await getTranslations({locale, namespace: 'WhatIsSBPage'});
  
   return {
     title: t('title'),
@@ -29,7 +29,7 @@ export default function WhatIsSBPage() {
     { key: 'lipomyelomeningocele', img: '/images/sb-types/lipomyelomeningocele.png', highlight: false },
   ];
 
-  const revealVariants = {
+  const revealVariants: any = {
     hidden: { opacity: 0, y: 30 },
     visible: { 
       opacity: 1, 
@@ -38,7 +38,7 @@ export default function WhatIsSBPage() {
     }
   };
 
-  const staggerContainer = {
+  const staggerContainer: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,

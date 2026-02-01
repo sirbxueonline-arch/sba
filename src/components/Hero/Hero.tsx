@@ -41,7 +41,7 @@ export default function Hero() {
           variants={containerVariants}
         >
            <motion.div variants={itemVariants} className={styles.badge}>
-              <Link href="/contact" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', color: 'inherit' }}>
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfCgxaqxqVVBcFJQWxasbJteqZiOWbzJx-SyVAItph7Ha4vwA/viewform" target="_blank" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', color: 'inherit' }}>
                  <span style={{fontSize: '1.2rem'}}>📝</span> {t('badge')}
               </Link>
            </motion.div>

@@ -7,6 +7,7 @@ import LanguageSwitcher from '../UI/LanguageSwitcher';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Header() {
   const tNav = useTranslations('Navigation');
@@ -49,9 +50,14 @@ export default function Header() {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <div className={styles.logoText}>
-            <span>SBA</span> 
-            <span className={styles.logoHighlight}>.</span>
+          <div style={{ position: 'relative', width: '180px', height: '60px' }}>
+             <Image 
+               src="/logo.jpg" 
+               alt="SBA Logo" 
+               fill
+               style={{ objectFit: 'contain', objectPosition: 'left center' }}
+               priority
+             />
           </div>
         </Link>
 

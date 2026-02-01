@@ -5,6 +5,7 @@ import { Link } from '@/i18n/navigation';
 import styles from './footer.module.css';
 import { Facebook, Instagram, Twitter, Linkedin, Heart } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Footer() {
   const t = useTranslations('Navigation');
@@ -34,7 +35,14 @@ export default function Footer() {
             variants={revealVariants}
           >
             <Link href="/" className={styles.logo}>
-              SBA<span className={styles.logoHighlight}>.</span>
+              <div style={{ position: 'relative', width: '200px', height: '70px' }}>
+                <Image 
+                  src="/logo.jpg" 
+                  alt="SBA Logo" 
+                  fill
+                  style={{ objectFit: 'contain', objectPosition: 'left center' }}
+                />
+              </div>
             </Link>
             <p className={styles.missionText}>
               {tHome('mission')}

@@ -74,7 +74,7 @@ export default function ProgramsPage() {
                   <div className={styles.progIcon}>{prog.icon}</div>
                   <h3 className={styles.progTitle}>{prog.title}</h3>
                   <p className={styles.progDesc}>{prog.desc}</p>
-                  <Link href="/contact" className={styles.learnMore} style={{ color: prog.color }}>
+                  <Link href="/support" className={styles.learnMore} style={{ color: prog.color }}>
                     Learn More <ArrowRight size={18} />
                   </Link>
                 </div>
