@@ -127,12 +127,15 @@ export default function WhatIsSBPage() {
                    <div style={{ position: 'relative', width: '100%', height: '200px', marginBottom: '1.5rem', borderRadius: '12px', overflow: 'hidden', background: '#f8fafc' }}>
                       <Image 
                         src={type.img} 
+                        // eslint-disable-next-line @typescript-eslint/no-explicit-any
                         alt={t(`types.${type.key}.term` as any)} 
                         fill 
                         style={{ objectFit: 'contain', padding: '1rem' }}
                       />
                    </div>
+                   {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                    <h3 className={styles.typeCard}>{t(`types.${type.key}.term` as any)}</h3>
+                   {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                    <p className="description">{t(`types.${type.key}.desc` as any)}</p>
                 </motion.div>
               ))}
@@ -287,9 +290,11 @@ export default function WhatIsSBPage() {
                     style={{ padding: '1.5rem' }}
                   >
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: 'var(--color-primary-dark)' }}>
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                       {t(`faq.q${num}` as any)}
                     </h3>
                     <p className="description">
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                       {t(`faq.a${num}` as any)}
                     </p>
                   </motion.div>

@@ -41,7 +41,7 @@ export default function HomeContent() {
               viewport={{ once: true, margin: "-100px" }}
               variants={revealVariants}
             >
-              "{t('mission')}"
+              &quot;{t('mission')}&quot;
             </motion.h2>
           </div>
        </section>
