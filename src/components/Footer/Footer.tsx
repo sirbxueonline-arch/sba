@@ -98,7 +98,6 @@ export default function Footer() {
               <ul className={styles.linkList}>
                 <li><Link href="/what-is-sb">{t('whatIsSB')}</Link></li>
                 <li><Link href="/living-with">{t('livingWith')}</Link></li>
-                <li><Link href="/contact">{t('contact')}</Link></li>
               </ul>
             </motion.div>
           </div>

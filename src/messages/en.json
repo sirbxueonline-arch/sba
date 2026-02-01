@@ -32,14 +32,12 @@
     "support": "Support",
     "programs": "Programs",
     "news": "News",
-    "contact": "Contact",
     "support_res": "Resources",
     "support_map": "Medical Map",
     "support_help": "Helpline"
   },
   "Common": {
-    "readMore": "Read More",
-    "donate": "Donate"
+    "readMore": "Read More"
   },
   "AboutPage": {
     "title": "About Us",
@@ -132,38 +130,7 @@
           }
       }
   },
-  "ContactPage": {
-      "title": "Contact Us",
-      "visit": { "title": "Visit Us", "text": "Uzeyir Hajibeyov 57, Baku, Azerbaijan" },
-      "email": { "title": "Email Us" },
-      "call": { "title": "Call Us", "hours": "Mon-Fri, 9am - 6pm" },
-      "form": {
-          "name": "Full Name",
-          "email": "Email Address",
-          "message": "How can we help you?",
-          "submit": "Send Message",
-          "sending": "Sending...",
-          "successTitle": "Message Sent!",
-          "successDesc": "Thank you for reaching out. We will get back to you shortly.",
-          "sendAnother": "Send Another",
-          "errorGeneric": "Something went wrong. Please try again.",
-          "validName": "Name must be at least 2 characters",
-          "validEmail": "Invalid email address",
-          "validMessage": "Message must be at least 10 characters"
-      }
-  },
-  "DonatePage": {
-      "title": "Make a Difference",
-      "description": "Your donation helps us provide wheelchairs, medical supplies, and hope.",
-      "bank": {
-          "title": "Bank Transfer Details",
-          "name": "Bank Name",
-          "account": "Account Name",
-          "iban": "IBAN",
-          "swift": "SWIFT Code"
-      },
-      "note": "Your donation is tax-deductible. Please include your name in the transfer description."
-  },
+
   "NewsPage": {
       "title": "News & Stories",
       "subtitle": "Celebrating our victories and sharing important updates from the community.",

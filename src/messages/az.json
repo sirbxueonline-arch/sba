@@ -32,14 +32,12 @@
     "support": "Dəstək",
     "programs": "Proqramlar",
     "news": "Xəbərlər",
-    "contact": "Əlaqə",
     "support_res": "Resurslar",
     "support_map": "Tibbi Xəritə",
     "support_help": "Qaynar Xətt"
   },
   "Common": {
-    "readMore": "Ətraflı",
-    "donate": "İanə Edin"
+    "readMore": "Ətraflı"
   },
   "AboutPage": {
     "title": "Haqqımızda",
@@ -132,38 +130,7 @@
           }
       }
   },
-  "ContactPage": {
-      "title": "Bizimlə Əlaqə",
-      "visit": { "title": "Ünvanımız", "text": "Üzeyir Hacıbəyov 57, Bakı, Azərbaycan" },
-      "email": { "title": "E-poçt" },
-      "call": { "title": "Zəng Edin", "hours": "B.e.-Cümə, 09:00 - 18:00" },
-      "form": {
-          "name": "Ad və Soyad",
-          "email": "E-poçt Ünvanı",
-          "message": "Mesajınız",
-          "submit": "Göndər",
-          "sending": "Göndərilir...",
-          "successTitle": "Mesaj göndərildi!",
-          "successDesc": "Müraciətiniz üçün təşəkkür edirik. Tezliklə sizinlə əlaqə saxlayacağıq.",
-          "sendAnother": "Yenisini Göndər",
-          "errorGeneric": "Xəta baş verdi. Xahiş edirik yenidən cəhd edin.",
-          "validName": "Ad ən azı 2 simvol olmalıdır",
-          "validEmail": "Yanlış e-poçt ünvanı",
-          "validMessage": "Mesaj ən azı 10 simvol olmalıdır"
-      }
-  },
-  "DonatePage": {
-      "title": "Fərq Yaradın",
-      "description": "Sizin ianəniz əlil arabaları, tibbi ləvazimatlar və ümid bəxş edir.",
-      "bank": {
-          "title": "Bank Transferi Məlumatları",
-          "name": "Bank Adı",
-          "account": "Hesab Adı",
-          "iban": "IBAN",
-          "swift": "SWIFT Kodu"
-      },
-      "note": "İanəniz vergidən azaddır. Xahiş edirik köçürmə təsvirində adınızı qeyd edin."
-  },
+
   "NewsPage": {
       "title": "Xəbərlər və Hekayələr",
       "subtitle": "Qələbələrimizi qeyd edirik və icmadan vacib yenilikləri paylaşırıq.",

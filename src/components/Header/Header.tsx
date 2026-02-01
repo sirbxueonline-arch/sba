@@ -29,7 +29,6 @@ export default function Header() {
     { href: '/about', label: tNav('about') },
     { href: '/what-is-sb', label: tNav('whatIsSB') },
     { href: '/support', label: tNav('support') },
-    { href: '/contact', label: tNav('contact') },
   ];
 
   const menuVariants = {
@@ -82,10 +81,6 @@ export default function Header() {
             <LanguageSwitcher />
           </div>
           
-          <Link href="/donate" className={`${styles.donateBtn} btn btn-primary`}>
-            {tCommon('donate')} 
-          </Link>
-          
           <button 
             className={styles.mobileToggle}
             onClick={() => setIsMobileOpen(!isMobileOpen)}
@@ -125,14 +120,6 @@ export default function Header() {
             <div style={{ marginBottom: '2.5rem', display: 'flex', justifyContent: 'center' }}>
               <LanguageSwitcher />
             </div>
-            <Link 
-              href="/donate" 
-              className="btn btn-primary" 
-              style={{ width: '100%', maxWidth: '320px', padding: '1rem' }}
-              onClick={() => setIsMobileOpen(false)}
-            >
-              {tCommon('donate')}
-            </Link>
           </motion.div>
         </div>
       </div>
